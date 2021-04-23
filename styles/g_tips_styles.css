@@ -1,0 +1,115 @@
+/*DEVELOPER: Neil Lakshmanan, IS117-003, Spring 2021 */
+/*Styles for the body*/
+html{
+    background-color: rebeccapurple;
+}
+body{
+    font-family: "Trebuchet MS";
+    border: black;
+    background-color: mediumpurple;
+    border-style: solid;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-style: solid;
+
+}
+body:hover a{font-style: italic}
+
+/*style for header elements*/
+header {
+    border-bottom: solid;
+    border-bottom-color: darkblue;
+}
+header h1 {
+    font-size: 200%;
+    text-align: center;
+
+}
+
+#header_image_1 {
+    width: 25%;
+    height: 25%;
+    position: relative;
+    left: 75%;
+    top: 85%;
+}
+
+#header_image_2 {
+    width: 25%;
+    height: 25%;
+    position: relative;
+    right: 25%;
+    top: 85%;
+}
+
+#switch_logo{
+    width: 10%;
+    height: 10%;
+    position: relative;
+    right: 25%;
+    top: 85%;
+}
+
+#steam_logo {
+    width: 10%;
+    height: 10%;
+    position: relative;
+    right: 0%;
+    top: 85%;
+}
+/*Style types for the nav_menu element*/
+#nav_menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+}
+#nav_menu ul li {
+    width: 50%;
+    float: left;
+}
+
+#nav_menu ul li a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+
+}
+
+#nav_menu ul  ul {
+    width: 100%;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+}
+#nav_menu ul li:hover > ul {
+    visibility: visible;
+    border: black;
+}
+main h1{
+    text-align: center;
+}
+main p{
+    text-align: center;
+}
+main video{
+    position: relative;
+    left: 39%;
+}
+
+footer{
+    text-align: center;
+}
+
+main img{
+    position: relative;
+    left: 39%;
+}

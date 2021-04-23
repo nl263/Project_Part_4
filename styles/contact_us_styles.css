@@ -1,0 +1,130 @@
+/*DEVELOPER: Neil Lakshmanan, IS117-003, Spring 2021 */
+/*Styles for the body*/
+html{
+    background-color: rebeccapurple;
+}
+body{
+    font-family: "Trebuchet MS";
+    border: black;
+    background-color: mediumpurple;
+    border-style: solid;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-style: solid;
+
+}
+body:hover a{font-style: italic}
+
+/*style for header elements*/
+header {
+    border-bottom: solid;
+    border-bottom-color: darkblue;
+}
+header h1 {
+    font-size: 200%;
+    text-align: center;
+
+}
+
+#header_image_1 {
+    width: 25%;
+    height: 25%;
+    position: relative;
+    left: 75%;
+    top: 85%;
+}
+
+#header_image_2 {
+    width: 25%;
+    height: 25%;
+    position: relative;
+    right: 25%;
+    top: 85%;
+}
+
+#switch_logo{
+    width: 10%;
+    height: 10%;
+    position: relative;
+    right: 25%;
+    top: 85%;
+}
+
+#steam_logo {
+    width: 10%;
+    height: 10%;
+    position: relative;
+    right: 0%;
+    top: 85%;
+}
+/*Style types for the nav_menu element*/
+#nav_menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+}
+#nav_menu ul li {
+    width: 50%;
+    float: left;
+}
+
+#nav_menu ul li a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+
+}
+
+#nav_menu ul  ul {
+    width: 100%;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+}
+#nav_menu ul li:hover > ul {
+    visibility: visible;
+    border: black;
+}
+
+/* Styles for contact form */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: darkblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: purple;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
